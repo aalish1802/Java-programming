@@ -1,20 +1,18 @@
-import java.io.*;
 import java.util.*;
-
-public class Solution {
-
-    public static void main(String[] args) {
-      Scanner sc=new Scanner(System.in);
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
         double a = sc.nextDouble();
         double b = sc.nextDouble();
       if (a <= 0 || b <= 0) 
      {
        System.out.println("Invalid Input");
      }
-       double literskm = (liters / distance) * 100;
-       double miles = distance * 0.6214;
-       double gallons = liters * 0.2642;
-       double milesgal = miles / gallons;
+       double c = (a / b) * 100;
+       double d = b * 0.6214;
+       double e = a * 0.2642;
+       double f = d / e;
        System.out.printf("Liters/100KM\n%.2f\n", literskm);
        System.out.printf("Miles/gallons\n%.2f\n", milesgal);
            }
