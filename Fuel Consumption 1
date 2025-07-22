@@ -5,12 +5,11 @@ public class Solution {
 
     public static void main(String[] args) {
       Scanner sc=new Scanner(System.in);
-        double liters = sc.nextDouble();
-        double distance = sc.nextDouble();
-      if (liters <= 0 || distance <= 0) 
+        double a = sc.nextDouble();
+        double b = sc.nextDouble();
+      if (a <= 0 || b <= 0) 
      {
        System.out.println("Invalid Input");
-       return;
      }
        double literskm = (liters / distance) * 100;
        double miles = distance * 0.6214;
