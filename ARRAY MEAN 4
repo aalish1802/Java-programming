@@ -16,7 +16,7 @@ public class Solution {
             arr[i] = sc.nextInt();
             sum=sum+ arr[i];
         }
-        float mean = (float)sum / a;
-        System.out.printf("Array Mean Value is %.2f", mean);
+        float m= sum / a;
+        System.out.printf("Array Mean Value is %.2f", m);
     }
 }
